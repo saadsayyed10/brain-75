@@ -13,3 +13,10 @@ function hasDuplicate(nums) {
   // Return false If no duplicates were found
   return false;
 }
+
+/* Testing */
+const nums1 = [1, 2, 3, 3];
+const nums2 = [1, 2, 3, 4];
+
+console.log("Output: " + hasDuplicate(nums1)); // Returns true
+console.log("Output: " + hasDuplicate(nums2)); // Returns false
